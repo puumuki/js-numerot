@@ -10,7 +10,10 @@ npm install js-numerot --save
   var numerot = require('numerot');
 
   console.log(numerot(1));//yksi
+
   console.log(numerot(2));//kaksi
+
+  console.log(numerot(999))//yhdeksänsataayhdeksänkymmentäyhdeksän
 
 ## Tests
 
@@ -19,3 +22,5 @@ npm install js-numerot --save
 ## Release History
 
 * 0.1.0 Initial release
+
+* 0.2.0 Count of supported numbers increased from - 1000 to + 1000 
