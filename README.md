@@ -23,4 +23,6 @@ npm install js-numerot --save
 
 * 0.1.0 Initial release
 
-* 0.2.0 Count of supported numbers increased from - 1000 to + 1000 
+* 0.2.0 Count of supported numbers increased from - 1000 to + 1000
+
+* 0.2.1 Added some missing semicolons to code 

@@ -39,7 +39,7 @@ function hundres(num) {
     }
 
     if( num > 10 && num <= 19 ) {
-        result = NUMBERS[_s(num)[1]] + 'toista'
+        result = NUMBERS[_s(num)[1]] + 'toista';
     }
 
     if( num >= 20 && num <= 99 ) {
@@ -78,7 +78,7 @@ module.exports = function(number) {
     if( num > 100 && num < 1000 ) {
         var hundreds  = _s(num)[0];
         result += hundreds >= 2 ? NUMBERS[hundreds] + 'sataa' : 'sata';
-        result += hundres( Number(_s(num)[1] + _s(num)[2]) )
+        result += hundres( Number(_s(num)[1] + _s(num)[2]) );
     }
 
     if( num === 0 ) {
@@ -90,6 +90,6 @@ module.exports = function(number) {
     }    
 
     return result;
-}
+};
 
 //121 sata kaksikymmentä kaksi
